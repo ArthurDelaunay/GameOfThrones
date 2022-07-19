@@ -1,0 +1,32 @@
+.background-color_dark {
+    background-color: #222;
+}
+
+.box {
+    height: fit-content;
+    width: 300px;
+    min-height: 550px;
+}
+
+.box:nth-child(even) {
+    background-color: #ccc;
+    color: #222;
+}
+
+.box:nth-child(odd) {
+    background-color: #888;
+    color: white;
+}
+
+.title {
+    color: rgb(160, 12, 12);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 48px;
+}
+.button {
+    width: fit-content;
+    height: fit-content;
+}
