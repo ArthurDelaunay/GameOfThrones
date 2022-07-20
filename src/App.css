@@ -1,5 +1,6 @@
 .background-color_dark {
     background-color: #222;
+    height: 100%;
 }
 
 .box {
@@ -29,4 +30,17 @@
 .button {
     width: fit-content;
     height: fit-content;
+}
+
+.nav-bar {
+    height: 80px;
+    gap: 15px;
+}
+
+.view-selection {
+    height: 80%;
+    width: 200px;
+    background-color: #777;
+    color: #eee;
+    font-size: 24px;
 }

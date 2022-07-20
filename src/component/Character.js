@@ -15,7 +15,7 @@ class Character extends React.Component {
                     </div> 
                 </div>
                 <div className="d-flex justify-content-center pb-3">
-                    <img onClick={this.props.favorite} src={emptyHeart} alt="heart" width={"32px"}/>
+                    <img onClick={this.props.addToFavorite} src={emptyHeart} alt="heart" width={"32px"}/>
                 </div>
             </article>
 		)
