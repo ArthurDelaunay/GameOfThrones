@@ -28,8 +28,9 @@ class App extends React.Component {
   handleFavoriteClick = (character) => {
     const clonedFavorites = [...this.state.favorites, character]
     this.setState({
-      favorites: clonedFavorites
+      favorites: clonedFavorites,
     })
+    
   }
 
   handleCharactersDisplayClick = () => {
@@ -49,7 +50,7 @@ class App extends React.Component {
 
 
     render() {
-        console.log(this.state.isDisplayCharacters, this.state.isDisplayContinents)
+        console.log(this.state)
         return(
             <div className="background-color_dark">
                 <nav className="nav-bar d-flex justify-content-center align-items-end">
